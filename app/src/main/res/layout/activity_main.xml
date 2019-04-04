@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <Button
-            android:text="Start Notification in 5 seconds"
+            android:text="Send Notification"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
