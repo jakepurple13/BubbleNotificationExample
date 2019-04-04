@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         mNotificationManager.createNotificationChannel(channel)
         button.setOnClickListener {
             GlobalScope.launch {
-                delay(5000)
+                delay(500)
                 //launch notification
                 // Create bubble intent
                 val target = Intent(this@MainActivity, BubbleActivity::class.java)
